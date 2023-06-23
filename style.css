@@ -13,7 +13,8 @@ body {
 }
 
 .logo {
-    margin-left: 25%;
+    margin-left: 15%;
+    flex: 1 0 auto;
 }
 
 .logo a {
@@ -25,8 +26,7 @@ body {
 
 .navlinks {
     padding: 0px;
-    margin: 0px;
-    margin-right: 25%;
+    margin: 0px 16.5% 0px 16px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -44,4 +44,55 @@ body {
 
 .navlinks a:hover {
     background-color: #353c45;
+}
+
+.first-block {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 50px;
+    align-items: center;
+}
+
+.first-block img {
+    display: inline-block;
+    flex: 0 0 25%;
+    width: 500px;
+    height: auto;
+    padding: 50px 20px;
+    flex: 0 0 auto;
+}
+
+.first-content {
+    flex: 0 0 25%;
+}
+
+.first-content h1 {
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-content p {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.first-content a {
+    display: inline-block;
+    background-color: #3882F6;
+    color: #F2FAF8;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 9px;
+    box-shadow: 2px 2px #1b232e;
+}
+
+.first-content a:hover {
+    background-color: #0e52c0;;
 }
