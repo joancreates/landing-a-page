@@ -96,3 +96,24 @@ body {
 .first-content a:hover {
     background-color: #0e52c0;;
 }
+
+.second-block h2 {
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-block img {
+    width: 300px;
+    height: 300px;
+}
+
+.explorers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 18px;
+}
