@@ -107,6 +107,8 @@ body {
 .second-block img {
     width: 300px;
     height: 300px;
+    border-radius: 25px;
+    border: #3882f6 solid 3px;
 }
 
 .explorers {
@@ -116,4 +118,92 @@ body {
     gap: 20px;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 29.88px;
+}
+
+.third-block {
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    height: 320px;
+    padding: 29.88px 25%;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.third-block .quote {
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.third-block .client {
+    text-align: end;
+    margin: 20px 0px 0px 0px;
+    padding-right: 50px;
+    vertical-align: bottom;
+}
+
+.fourth-block {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-block .bottom-banner {
+    background-color: #3882f6;
+    border-radius: 30px;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.bottom-banner h4,
+.bottom-sign {
+    font-weight: 900;
+}
+
+.bottom-banner h4 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.bottom-banner p {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.bottom-text {
+    margin-left: 150px;
+}
+
+.bottom-sign {
+    display: inline-block;
+    background-color: #3882f6;
+    color: #F2FAF8;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 9px;
+    border: 2px solid  #F2FAF8;
+    margin-right: 150px;
+}
+
+.bottom-sign:hover {
+    background-color: hsl(217, 93%, 62%);
+}
+
+.fifth-block {
+    color: #e5e7eb;
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
